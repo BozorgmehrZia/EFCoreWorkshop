@@ -1,0 +1,9 @@
+dotnet tool install --global dotnet-ef
+
+#Add Migration
+CLI : dotnet ef migrations add CreatePost
+VS : add-migration CreatePost
+
+#Update Database
+CLI : dotnet ef database update
+VS : update-database –verbose
